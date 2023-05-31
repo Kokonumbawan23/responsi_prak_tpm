@@ -90,6 +90,20 @@ class _MealDetailsState extends State<MealDetails> {
             height: 20,
           ),
           Text(
+            'Area',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            meal["strArea"],
+            style: TextStyle(fontSize: 18),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
             'Instruction',
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
